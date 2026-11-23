@@ -1,0 +1,12 @@
+{
+  "name": "zotero-drop-callout",
+  "version": "0.1.1",
+  "private": true,
+  "description": "Automatically convert Zotero PDF highlight drops into Obsidian callouts",
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "check": "node --check main.js && npm test"
+  },
+  "license": "MIT",
+  "engines": { "node": ">=18" }
+}
